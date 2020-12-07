@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Acceuil">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id = "@+id/layoutAcceuil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/hello1">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="422dp"
+            android:layout_height="453dp"
+            android:layout_marginTop="-40dp"
+            android:src="@drawable/images" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="-40dp">
+
+            <Button
+                android:id="@+id/bottn_liste"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Consulter livre"
+                android:layout_gravity="center_horizontal"
+                app:backgroundTint="@color/hello"/>
+
+
+            <Button
+                android:id="@+id/bottn_ajouter"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Ajouter livre"
+                android:layout_gravity="center_horizontal"
+                app:backgroundTint="@color/hello"/>
+
+            <Button
+                android:id="@+id/bottn_quitter"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Quitter"
+                android:layout_gravity="center_horizontal"
+                app:backgroundTint="@color/design_default_color_error" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

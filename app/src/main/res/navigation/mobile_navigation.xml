@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/Acceuil">
+
+    <fragment
+        android:id="@+id/Acceuil"
+        android:name="com.example.projetjava.fragment.Acceuil"
+        android:label="Acceuil"
+        tools:layout="@layout/fragment_acceuil" />
+    <action
+        android:id="@+id/action_Acceuil_to_Ajout"
+        app:destination="@id/Ajouter" />
+    <action
+        android:id="@+id/action_Acceuil_List"
+        app:destination="@id/Liste" />
+
+    <fragment
+        android:id="@+id/Liste"
+        android:name="com.example.projetjava.fragment.Liste"
+        android:label="Liste"
+        tools:layout="@layout/fragment_liste">
+    <action
+        android:id="@+id/ToDetail"
+        app:destination="@id/Liste" />
+        />
+    </fragment>
+    <fragment
+        android:id="@+id/Detail"
+        android:name="com.example.projetjava.fragment.Detail"
+        android:label="Detail"
+        tools:layout="@layout/detail" />
+
+    <fragment
+        android:id="@+id/Ajouter"
+        android:name="com.example.projetjava.fragment.Ajouter"
+        android:label="Ajouter"
+        tools:layout="@layout/fragment_ajouter" >
+        <action
+            android:id="@+id/action_ajout_to_liste"
+            app:destination="@id/Liste" />
+    </fragment>
+
+</navigation>

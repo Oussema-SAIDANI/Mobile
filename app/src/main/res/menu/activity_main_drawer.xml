@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Acceuil"
+            android:icon="@drawable/acceuil"
+            android:title="Acceuil" />
+        <item
+            android:id="@+id/Liste"
+            android:icon="@drawable/liste"
+            android:title="Liste des livres" />
+        <item
+            android:id="@+id/Ajouter"
+            android:icon="@drawable/ajouter"
+            android:title="Ajouter livre" />
+        <item
+            android:id="@+id/Quitter"
+            android:icon="@drawable/quitter"
+            android:title="Quitter"/>
+    </group>
+</menu>

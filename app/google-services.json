@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "855447273062",
+    "firebase_url": "https://gestion-bibliotheque-8579a-default-rtdb.firebaseio.com",
+    "project_id": "gestion-bibliotheque-8579a",
+    "storage_bucket": "gestion-bibliotheque-8579a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855447273062:android:30b4ff18f416ede44837a7",
+        "android_client_info": {
+          "package_name": "com.example.projetjava"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855447273062-a1jph00o5vbbsqg3l6s6qu1irn5vkejo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.projetjava",
+            "certificate_hash": "0fb80d6a37cd4734aa9930438272c7c1544071bc"
+          }
+        },
+        {
+          "client_id": "855447273062-j01kpasf5qibt2bnhmba2ohd8dno2vdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSABFnq6IYbiWeVhgs_Il2V9C1DZTsGJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855447273062-j01kpasf5qibt2bnhmba2ohd8dno2vdk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
